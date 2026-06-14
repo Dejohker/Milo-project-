@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page{
+    display: flex;
+}
+.full-page .left-aside{
+    position: relative;
+    width: 70%;
+    border-right: 4px solid rgba(0, 128, 0, 0.566);
+    height: 100vh;
+}
+
+.left-aside .img1{
+    position: absolute;
+    top:50px;
+    right: 150px;
+    width: 200px;
+    border-radius: 20px;
+    z-index: 10;
+}
+.left-aside .img2{
+    position: absolute;
+    top:50px;
+    left: 150px;
+    width: 80%;
+    border-radius: 20px;
+}
+.left-aside .img3{
+    position: absolute;
+    top: 60vh;
+    left: 100px;
+    width: 20%;
+    border-radius: 20px;
+}
+.left-aside .img4{
+    position: absolute;
+    top: 70vh;
+    left: 200px;
+    width: 20%;
+    border-radius: 20px;
+}
+.left-aside h1{
+    position: relative;
+    font-size: 54px;
+    z-index: 200;
+    font-family:  cursive;
+    font-weight: 300;
+    line-height: 1.4;
+    max-width: 300px;
+    margin-left: 50px;
+    
+}
+.left-aside h1 span{
+    color: limegreen;
+}
+.right-aside{
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.right-aside h1{
+    text-align: center;
+}
+.right-aside form input{
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: 1px solid limegreen;
+    border-radius: 20px;
+    margin: 20px 0;
+
+    /* font-size: 18px; */
+}
+
+.right-aside form [type="submit"]{
+
+    background-color: limegreen;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.right-aside form [type="submit"]:hover{
+
+    background-color: white;
+    color: limegreen;
+    
+    
+}
